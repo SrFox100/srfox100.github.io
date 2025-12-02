@@ -270,6 +270,7 @@ footer > #footer {
     pointer-events: none;
     overflow: hidden;
 }
+
 .snowflake {
     position: absolute;
     width: 10px;
