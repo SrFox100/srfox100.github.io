@@ -131,6 +131,7 @@ section.projects {
     flex-flow: column;
     flex-wrap: wrap;
     gap: 8px;
+    z-index: 0;
 }
 .project {
     position: relative;
@@ -259,4 +260,23 @@ footer > #footer {
     to {
         background-position: var(--slideX) var(--slideY);
     }
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99;
+    overflow-x: hidden;
 }

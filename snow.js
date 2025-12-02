@@ -1,7 +1,7 @@
 const snowContainer = document.getElementById('snow');
 const snowflakes = [];
-const maxSnowflakes = 100;
-const snowflakeCreationInterval = 100;
+const maxSnowflakes = 200;
+const snowflakeCreationInterval = 50;
 const animationFrameDuration = 16;
 let windDirection = 0;
 
